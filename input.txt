@@ -1,0 +1,7 @@
+21         ! number of nStates
+287        ! number of nSites (specify the amino acid number of protein after removing gappy regions)
+13         ! replica
+0.8        ! temp_min
+2.0        ! temp_max
+100000     ! number of monte carlo iterations
+1          ! frequency at which configurations are recorded
