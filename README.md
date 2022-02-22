@@ -1,6 +1,6 @@
 ## Maximum Entropy Model for Enzyme (MEME)
 
-The code was initially developed by W.J Xie and B. Zhang at MIT studying the statistical physics of epigenome ([W.J. Xie and B. Zhang, Biophys Journal, 2019, 116, 2047-2056](https://www.sciencedirect.com/science/article/pii/S0006349519303066)). The code was slightly modified to study protein evolution ([W.J. Xie, M. Asadi, and A. Warshel, PNAS, 2022, 119, e2122355119](https://www.pnas.org/content/119/7/e2122355119)).
+The code was initially developed by W.J Xie and B. Zhang at MIT studying the statistical physics of epigenome ([W.J. Xie and B. Zhang, Biophys Journal, 2019, 116, 2047-2056](https://www.sciencedirect.com/science/article/pii/S0006349519303066)). In the current version, the code was slightly modified to study protein evolution ([W.J. Xie, M. Asadi, and A. Warshel, PNAS, 2022, 119, e2122355119](https://www.pnas.org/content/119/7/e2122355119)).
 
 ### Descriptions
 Programs to parameterize the MaxEnt model. Three techniques are used to accelerate the optimization: replica-exchange MCMC, MPI, and momentum-assisted SGD optimizer.
