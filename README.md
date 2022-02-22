@@ -9,7 +9,7 @@ Programs to parameterize the MaxEnt model. Three techniques are used to accelera
 GFortran v8.3.0, MPICH v3.3.2
 
 ### Input
-statistics from MSA (experimental_constraints.txt; single-body frequencies are followed by double-body frequencies.)
+statistics from MSA (experimental_constraints.txt; single-body frequencies are followed by pairwise frequencies.)
 
 ### Output
 parameters of the MaxEnt model (IsingHamiltonian_field.txt, IsingHamiltonian_coupling.txt in the params subfolder), the MaxEnt energy for mutated sequences (msa_mut_MaxEnt_energy.txt)
